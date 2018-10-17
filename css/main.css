@@ -20,7 +20,6 @@ div {
   color: #fff;
   background-color: #333;
   font-size: 1.125rem;
-  padding: .4em .75em .3em;
   border-radius: 8px;
 }
 
@@ -45,7 +44,6 @@ div {
   text-decoration: none;
   color: #000;
   font-size: 1.125rem;
-  padding: .4em .75em .3em;
   border-radius: 8px;
   border-width: 3px;
   border-width: 3px;
@@ -61,7 +59,6 @@ div {
   color: #fff;
   background-color: #f33;
   font-size: 1.125rem;
-  padding: .4em .75em .3em;
   border-radius: 8px;
   border-width: 3px;
 }
