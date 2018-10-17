@@ -18,10 +18,14 @@ div {
   text-decoration: none;
   text-decoration-style: none;
   color: #fff;
-  background-color: #000;
+  background-color: #333;
   font-size: 1.125rem;
   padding: .4em .75em .3em;
   border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #000;
 }
 
 .btn-subtle {
@@ -43,8 +47,8 @@ div {
   padding: .4em .75em .3em;
   border-radius: 8px;
   border-width: 3px;
-  border-color: #333;
   border-width: 3px;
+  border-color: #333;
 }
 
 .btn-warning {
@@ -66,9 +70,5 @@ div {
 }
 
 
-- *Text sizes:* `1.125rem`, `.875rem`, `1.5rem`
-- *Colours:* `#fff`, `#000`, `#333`, `#666`, `#ccc`, `#f33`, `#933`
-- *Button padding:* `.4em .75em .3em`
-- *Button corner radius:* `8px`
-- *Button border width:* `3px`
+ `#333`, `#666` `#933`
 - *Expected class names:* `.btn`, `.btn-small`, `.btn-big`, `.btn-subtle`, `.btn-ghost`, `.btn-warning`
