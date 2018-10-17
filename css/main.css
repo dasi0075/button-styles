@@ -39,6 +39,10 @@ div {
   border-width: 3px;
 }
 
+.btn-subtle:hover {
+  background-color: #666;
+}
+
 .btn-ghost {
   text-decoration: none;
   text-decoration-style: none;
@@ -51,6 +55,10 @@ div {
   border-color: #333;
 }
 
+.btn-ghost:hover {
+  background-color: #666;
+}
+
 .btn-warning {
   text-decoration: none;
   text-decoration-style: none;
@@ -61,6 +69,10 @@ div {
   border-radius: 8px;
   border-width: 3px;
 }
+
+.btn-warning:hover {
+  background-color: #933;
+}
 .btn-small  {
   font-size: .875rem;
 }
@@ -68,7 +80,3 @@ div {
 .btn-big {
   font-size: 1.5rem;
 }
-
-
- `#333`, `#666` `#933`
-- *Expected class names:* `.btn`, `.btn-small`, `.btn-big`, `.btn-subtle`, `.btn-ghost`, `.btn-warning`
