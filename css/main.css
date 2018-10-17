@@ -10,4 +10,65 @@ html {
 div {
   padding: .5rem;
   text-align: center;
+  color: #fff;
+  text-decoration-line: none;
 }
+
+.btn {
+  text-decoration: none;
+  text-decoration-style: none;
+  color: #fff;
+  background-color: #000;
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+}
+
+.btn-subtle {
+  text-decoration: none;
+  text-decoration-style: none;
+  color: #fff;
+  background-color: #ccc;
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  border-width: 3px;
+}
+
+.btn-ghost {
+  text-decoration: none;
+  text-decoration-style: none;
+  color: #000;
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: #333;
+  border-width: 3px;
+}
+
+.btn-warning {
+  text-decoration: none;
+  text-decoration-style: none;
+  color: #fff;
+  background-color: #f33;
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  border-width: 3px;
+}
+.btn-small  {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+
+- *Text sizes:* `1.125rem`, `.875rem`, `1.5rem`
+- *Colours:* `#fff`, `#000`, `#333`, `#666`, `#ccc`, `#f33`, `#933`
+- *Button padding:* `.4em .75em .3em`
+- *Button corner radius:* `8px`
+- *Button border width:* `3px`
+- *Expected class names:* `.btn`, `.btn-small`, `.btn-big`, `.btn-subtle`, `.btn-ghost`, `.btn-warning`
