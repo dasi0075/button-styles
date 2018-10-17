@@ -46,7 +46,6 @@ div {
   font-size: 1.125rem;
   border-radius: 8px;
   border-width: 3px;
-  border-width: 3px;
   border-color: #333;
 }
 
@@ -66,7 +65,8 @@ div {
 .btn-warning:hover {
   background-color: #933;
 }
-.btn-small  {
+
+.btn-small {
   font-size: .875rem;
 }
 
