@@ -8,7 +8,7 @@ html {
 }
 
 div {
-  padding: .5rem;
+  padding: .4em .75em .3em;
   text-align: center;
   color: #fff;
   text-decoration-line: none;
@@ -33,7 +33,6 @@ div {
   color: #fff;
   background-color: #ccc;
   font-size: 1.125rem;
-  padding: .4em .75em .3em;
   border-radius: 8px;
   border-width: 3px;
 }
