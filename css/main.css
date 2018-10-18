@@ -32,7 +32,7 @@ div {
 
 .btn-subtle {
   color: #fff;
-  text-decoration: none;
+  text-decoration-line: none;
   background-color: #ccc;
   font-size: 1.125rem;
   border-radius: 8px;
@@ -45,7 +45,7 @@ div {
 }
 
 .btn-ghost {
-  text-decoration: none;
+  text-decoration-line: none;
   color: #000;
   font-size: 1.125rem;
   border: solid black;
@@ -61,7 +61,7 @@ div {
 }
 
 .btn-warning {
-  text-decoration: none;
+  text-decoration-line: none;
   color: #fff;
   background-color: #f33;
   font-size: 1.125rem;
