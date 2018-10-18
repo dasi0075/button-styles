@@ -21,7 +21,7 @@ div {
   background-color: #333;
   font-size: 1.125rem;
   border-radius: 8px;
-  padding: .5em;
+  padding: .6em;
   display: inline-box;
 }
 
@@ -47,9 +47,11 @@ div {
   text-decoration: none;
   color: #000;
   font-size: 1.125rem;
+  border: solid black;
   border-radius: 8px;
   border-width: 3px;
   border-color: #333;
+  padding: .6em;
 }
 
 .btn-ghost:hover {
@@ -63,6 +65,7 @@ div {
   font-size: 1.125rem;
   border-radius: 8px;
   border-width: 3px;
+  padding: .6em;
 }
 
 .btn-warning:hover {
@@ -71,8 +74,13 @@ div {
 
 .btn-small {
   font-size: .875rem;
+  padding: .5em;
 }
 
 .btn-big {
   font-size: 1.5rem;
+}
+
+div {
+  margin: .5rem;
 }
