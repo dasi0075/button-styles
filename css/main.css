@@ -21,7 +21,7 @@ div {
   color: #fff;
   font-size: 1.125rem;
   display: inline-block;
-  padding: .6em;
+  border-width: 3px;
   border-radius: 8px;
   padding: .6em;
 }
@@ -51,9 +51,6 @@ div {
   color: #fff;
   text-decoration-line: none;
   background-color: #ccc;
-  border-width: 3px;
-  border-radius: 8px;
-  padding: .6em;
 }
 
 .btn-subtle:hover {
@@ -66,10 +63,6 @@ div {
   border: solid black;
   border-width: 2px;
   border-color: #333;
-  display: inline-block;
-  margin: 0;
-  border-radius: 8px;
-  padding: .6em;
 }
 
 .btn-ghost:hover {
@@ -80,9 +73,6 @@ div {
   text-decoration-line: none;
   color: #fff;
   background-color: #f33;
-  border-width: 3px;
-  border-radius: 8px;
-  padding: .6em;
 }
 
 .btn-warning:hover {
