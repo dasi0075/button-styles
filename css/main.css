@@ -23,7 +23,11 @@ div {
   display: inline-block;
   border-width: 3px;
   border-radius: 8px;
-  padding: .4em;
+  padding: .5em;
+}
+
+.btn-hover {
+  background-color: inherit;
 }
 
 .btn-primary {
@@ -45,6 +49,7 @@ div {
 .btn-big {
   font-size: 1.5rem;
   margin: 0;
+  padding: .3em;
 }
 
 .btn-subtle {
@@ -60,7 +65,7 @@ div {
 .btn-ghost {
   text-decoration-line: none;
   color: #000;
-  border: solid #000
+  border: solid #000;
 }
 
 .btn-ghost:hover {
