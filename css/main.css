@@ -26,7 +26,7 @@ div {
   padding: .5em;
 }
 
-.btn-hover {
+.btn:hover {
   background-color: inherit;
 }
 
@@ -49,12 +49,10 @@ div {
 .btn-big {
   font-size: 1.5rem;
   margin: 0;
-  padding: .3em;
 }
 
 .btn-subtle {
   color: #fff;
-  text-decoration-line: none;
   background-color: #ccc;
 }
 
@@ -63,9 +61,7 @@ div {
 }
 
 .btn-ghost {
-  text-decoration-line: none;
   color: #000;
-  border: solid #000;
 }
 
 .btn-ghost:hover {
@@ -73,8 +69,6 @@ div {
 }
 
 .btn-warning {
-  text-decoration-line: none;
-  color: #fff;
   background-color: #f33;
 }
 
